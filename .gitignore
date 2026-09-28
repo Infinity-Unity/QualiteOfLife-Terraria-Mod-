@@ -1,0 +1,54 @@
+## --- Специфика Terraria / tModLoader ---
+# Игнорируем скомпилированные файлы мода (.tmod), которые создаются в папке сборки
+*.tmod
+# Игнорируем файлы локальной сборки, если вы собираете мод прямо в папку игры
+# (Обычно tModLoader копирует их в документы: Documents/My Games/Terraria/tModLoader/Mods)
+
+## --- Результаты компиляции (С# / .NET) ---
+[Dd]ebug/
+[Dd]ebugPublic/
+[Release]/
+[Releases]/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bbin/
+bin/
+obj/
+
+## --- Специфика сред разработки (Visual Studio, Rider, VS Code) ---
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## --- Файлы кэша и логи ---
+*.log
+*.suo
+*.userpreferences
+.tlog/
+
+## --- Операционная система ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
